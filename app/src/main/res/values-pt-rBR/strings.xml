@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Programação Web</string>
+    <string name="btnCadastrar">Cad. Cliente</string>
+    <string name="btnBuscar">Buscar Cliente</string>
+    <string name="btnListar">Listar Cliente</string>
+    <string name="btnSair">Sair</string>
+    <string name="txtNome">Nome do Cliente</string>
+    <string name="txtCpf">CPF do Cliente</string>
+    <string name="txtTelefone">Telefone do Cliente</string>
+    <string name="txtEndereco">Endereço do Cliente</string>
+    <string name="txtSexo">Sexo</string>
+    <string name="rdSexoM">Masculino</string>
+    <string name="rdSexoF">Feminino</string>
+    <string name="txtAtivo">Status do Cliente</string>
+    <string name="onoffAtivo">Ativo</string>
+    <string name="btnSalvar">Salvar</string>
+    <string name="btnCancelar">Cancelar</string>
+    <string name="tituloCadastrar">Cadastro de Cliente</string>
+    <string name="tituloListar">Clientes</string>
+    <string name="tituloBuscar">Buscar Clientes</string>
+    <string name="snackDel">SIM</string>
+    <string name="snackDeltext">Excluir</string>
+    <string name="txtBuscarCpf">Buscar por CPF</string>
+    <string name="lblAutor">Autor: Walter Gandarella</string>
+    <string name="btnGit">Visite meu github</string>
+</resources>

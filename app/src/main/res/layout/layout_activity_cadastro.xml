@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="br.com.wgbn.pm_20160328_trabalho_prova.CadastroActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin">
+
+            <TextView
+                android:text="@string/txtNome"
+                style="@style/legendas"/>
+            <EditText
+                android:id="@+id/txtNome"
+                android:inputType="textCapSentences"
+                style="@style/campos"/>
+
+            <TextView
+                android:text="@string/txtCpf"
+                style="@style/legendas"/>
+            <br.com.wgbn.pm_20160328_trabalho_prova.componentes.WgbnMaskEditText
+                android:id="@+id/txtCpf"
+                android:inputType="number"
+                tipo="cpf"
+                style="@style/campos"/>
+
+            <TextView
+                android:text="@string/txtTelefone"
+                style="@style/legendas"/>
+            <br.com.wgbn.pm_20160328_trabalho_prova.componentes.WgbnMaskEditText
+                android:id="@+id/txtTelefone"
+                android:inputType="number"
+                tipo="telefone"
+                style="@style/campos"/>
+
+            <TextView
+                android:text="@string/txtEndereco"
+                style="@style/legendas"/>
+            <EditText
+                android:id="@+id/txtEndereco"
+                style="@style/campos"/>
+
+            <TextView
+                android:text="@string/txtSexo"
+                style="@style/legendas"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/rdSexo">
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/rdSexoM"
+                        android:id="@+id/rdSexoM" />
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/rdSexoF"
+                        android:id="@+id/rdSexoF" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <TextView
+                android:text="@string/txtAtivo"
+                style="@style/legendas"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+
+                <Switch
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/onoffAtivo"
+                    android:id="@+id/onoffAtivo" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

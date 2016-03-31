@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Web Programming</string>
+    <string name="btnCadastrar">Add Client</string>
+    <string name="btnBuscar">Search Client</string>
+    <string name="btnListar">List Clients</string>
+    <string name="btnSair">Exit</string>
+    <string name="txtNome">Client Name</string>
+    <string name="txtCpf">Client Document</string>
+    <string name="txtTelefone">Client Contact Phone</string>
+    <string name="txtEndereco">Client Address</string>
+    <string name="txtSexo">Client Gender</string>
+    <string name="rdSexoM">Male</string>
+    <string name="rdSexoF">Female</string>
+    <string name="txtAtivo">Client Status</string>
+    <string name="onoffAtivo">Active</string>
+    <string name="btnSalvar">Save</string>
+    <string name="btnCancelar">Cancel</string>
+    <string name="tituloCadastrar">Create New Client</string>
+    <string name="tituloListar">Client List</string>
+    <string name="tituloBuscar">Client Search</string>
+    <string name="snackDel">YES</string>
+    <string name="snackDeltext">Delete</string>
+    <string name="txtBuscarCpf">Search by Document ID</string>
+    <string name="lblAutor">Author: Walter Gandarella</string>
+    <string name="btnGit">Visit my github</string>
+</resources>

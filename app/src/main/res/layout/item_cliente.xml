@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:text="undefined"
+        android:id="@+id/txtNomeCliente"
+        style="@style/nomeCliente"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="undefined"
+            android:id="@+id/txtCpfCliente"
+            style="@style/dadosCliente"/>
+
+        <TextView
+            android:text="undefined"
+            android:id="@+id/txtTelefoneCliente"
+            android:textAlignment="textEnd"
+            style="@style/dadosCliente"/>
+    </LinearLayout>
+</LinearLayout>

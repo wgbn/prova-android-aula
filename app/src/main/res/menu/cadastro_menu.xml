@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.com.wgbn.pm_20160222_hello_world.MainActivity" >
+
+    <item android:id="@+id/btnSalvar"
+        android:title="@string/btnSalvar"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_action_salvar"
+        app:showAsAction="always" />
+</menu>
